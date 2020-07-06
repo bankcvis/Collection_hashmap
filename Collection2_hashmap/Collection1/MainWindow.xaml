@@ -1,0 +1,18 @@
+﻿<Window x:Class="Collection1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Collection1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnAdd" Content="ADD" HorizontalAlignment="Left" Margin="31,256,0,0" VerticalAlignment="Top" Width="120" Height="59" Click="btnAdd_Click"/>
+        <Button x:Name="btnRemove" Content="REMOVE" HorizontalAlignment="Left" Margin="184,256,0,0" VerticalAlignment="Top" Width="170" Height="59" Click="btnRemove_Click"/>
+        <Button x:Name="btnShow" Content="SHOW" HorizontalAlignment="Left" Margin="401,256,0,0" VerticalAlignment="Top" Width="218" Click="btnShow_Click" Height="59"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="46" Margin="101,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="543"/>
+        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="46" Margin="101,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="543"/>
+        <Label Content="Key" HorizontalAlignment="Left" Margin="31,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Valuse" HorizontalAlignment="Left" Margin="31,162,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
